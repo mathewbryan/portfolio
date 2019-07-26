@@ -17,7 +17,7 @@ h1 {
     padding-right: 35px;
     margin: 0%; 
     text-shadow: 1px 1px 1px black ;
-    padding-top: 5vh;
+    
 }
 h2 {
     font-size: 30px;
@@ -43,7 +43,6 @@ h2 {
   background: rgb(112, 110, 243, .7);
   width:100vw;
   height: 100vh;
-  padding-top: 10%;
 
 }
 
@@ -117,3 +116,9 @@ h2 {
     background: rgb(184, 0, 0);
   color: white;
   }
+
+  .fa-github {
+    background: rgb(169, 0, 184);
+    color: white;
+  }
+  
