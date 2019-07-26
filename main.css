@@ -1,16 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+
+
 body {font-family: 'Noto Sans KR', sans-serif;}
 
 body{
     background:linear-gradient(-70deg, #353635, #797a79);
     color: aliceblue;
+    width: 100%;
+    margin: 0;
 }
 
 h1 {
-    text-align: right ;
-    font-size: 125px;
+    text-align: center right ;
+    font-weight: bold;
+    font-size: 15vw;
     padding-right: 35px;
     margin: 0%; 
+    text-shadow: 1px 1px 1px black ;
+    padding-top: 5vh;
 }
 h2 {
     font-size: 30px;
@@ -18,27 +25,51 @@ h2 {
     padding-left: 2px;
     margin-bottom: 0px;
 }
-
-.contentBox {
-    border-style: dashed;
-    border-width: 3px;
-    border-color: white;
-    border-radius: 5px;
-    margin: 50px;
+.contentContainer {
+    display: flex;
+    flex-direction: column;
     align-content: left;
-    padding-left: 15px;
     padding-bottom: 20px;
+}
+
+.content1 {
+  background: grey;
+  width:100vw;
+  height: 100vh;
+}
+
+
+.content2 {
+  background: rgb(112, 110, 243, .7);
+  width:100vw;
+  height: 100vh;
+  padding-top: 10%;
+
+}
+
+.content3 {
+  background: rgb(211, 233, 88, .7);
+  width:100vw;
+  height: 100vh;
+}
+
+.content4 {
+  background: green;
+  width:100vw;
+  height: 50vh;
 }
 
   .topnav {
     background-color: #333;
     overflow: auto;
+    position: fixed;
   }
   
   /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
     display: block;
+    box-direction: column;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
@@ -59,4 +90,30 @@ h2 {
  
   .topnav .icon {
     display: none;
+  }
+
+
+
+  .fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+  .fa:hover {
+    opacity: .7;
+  }
+  
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: rgb(184, 0, 0);
+  color: white;
   }
