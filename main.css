@@ -39,6 +39,11 @@ h2#about {
   margin-bottom: 5%;
 }
 
+p#about {
+  margin-top: 5px;
+  margin-bottom: 
+}
+
 .contentContainer {
     display: flex;
     flex-direction: column;
@@ -81,15 +86,53 @@ h2#about {
 
 .content3 {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   width:100vw;
   height: 100vh;
   background-size: 40px 40px;
   background-image: linear-gradient(to right, grey 1px, transparent 1px), linear-gradient(to bottom, grey 1px, transparent 1px);
   box-shadow: 1px #797a79;
 }
-h2#projects{
-  padding-left: 2%;
+
+.project1 {
+  background-color: #F8F6F7;
+  display: flex;
+  height: 60vh;
+  width: 20vw;
+  box-shadow: 3px 3px 5px #797a79;
+  position: absolute;
+  margin-left: 1%;
+  margin-top: 10%;
+  opacity: .3;
+  color: rgb(97, 97, 97);
+}
+
+.project1:hover {
+  opacity: .8;
+}
+
+.project2 {
+  background-color: #F8F6F7;
+  display: flex;
+  flex-direction: row;
+  height: 30vh;
+  width: 10vw;
+  box-shadow: 3px 3px 5px #797a79;
+  margin-left: 10%;
+  margin-top: 4%;
+  opacity: .3;
+  color: rgb(97, 97, 97);
+
+}
+.project2:hover {
+  opacity: .8;
+}
+
+h2#projecttitle{
+  height: 50px;
+  width: 200px;
+  text-align: center;
+  overflow-wrap: normal;
 }
 
 .content4 {
