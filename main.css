@@ -5,15 +5,13 @@ head {
   margin: 100vw;
 }
 
-body {font-family: 'Open Sans', sans-serif;
-}
-
 p {
   margin: 0;
 }
 
 body{
     background:linear-gradient(-70deg, #353635, #797a79);
+    font-family: 'Roboto', sans-serif;
     color: aliceblue;
     width: 100vw;
     margin: 0%;
@@ -37,10 +35,10 @@ h2 {
 }
 
 h2#about {
-  padding-right: 3%;
+  padding-right: 4%;
   margin-bottom: 5%;
-  text-decoration: underline dashed;
 }
+
 .contentContainer {
     display: flex;
     flex-direction: column;
@@ -68,7 +66,8 @@ h2#about {
 .content2about {
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(-90deg, white, rgb(156, 156, 156));
+  background-color: #F8F6F7;
+  /* background-image: linear-gradient(-90deg, white, rgb(156, 156, 156)); */
   color: black;
   justify-content: end; 
   align-items: flex-end;
@@ -77,26 +76,26 @@ h2#about {
   padding-top: 8%;
   padding-left:3%;
   padding-right: 3%;
-  
 
 }
 
 .content3 {
   display: flex;
-  background: rgb(211, 233, 88, .7);
+  flex-direction: column;
   width:100vw;
   height: 100vh;
-  padding-top: 3%;
-
+  background-size: 40px 40px;
+  background-image: linear-gradient(to right, grey 1px, transparent 1px), linear-gradient(to bottom, grey 1px, transparent 1px);
+  box-shadow: 1px #797a79;
+}
+h2#projects{
+  padding-left: 2%;
 }
 
-
-
 .content4 {
-  background: green;
+  background: #2b2b2b;
   width:100vw;
   height: 50vh;
-
 }
 
   .topnav {
