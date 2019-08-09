@@ -7,6 +7,7 @@ head {
 
 p {
   margin: 0;
+  text-align: right;
 }
 
 body{
@@ -35,7 +36,7 @@ h2 {
 }
 
 h2#about {
-  padding-right: 4%;
+  padding-right: 1%;
   margin-bottom: 5%;
 }
 
@@ -96,15 +97,14 @@ p#about {
 
 .project1 {
   background-color: #F8F6F7;
-  display: flex;
   height: 60vh;
   width: 20vw;
   box-shadow: 3px 3px 5px #797a79;
-  position: absolute;
   margin-left: 1%;
-  margin-top: 10%;
+  margin-top: 8%;
   opacity: .3;
   color: rgb(97, 97, 97);
+  
 }
 
 .project1:hover {
@@ -113,34 +113,33 @@ p#about {
 
 .project2 {
   background-color: #F8F6F7;
-  display: flex;
-  flex-direction: row;
-  height: 30vh;
-  width: 10vw;
+  height: 60vh;
+  width: 20vw;
   box-shadow: 3px 3px 5px #797a79;
   margin-left: 10%;
-  margin-top: 4%;
+  margin-top: 8%;
   opacity: .3;
   color: rgb(97, 97, 97);
 
+}
+
+.project2:hover {
+  opacity: .8;
 }
 
 .project3 {
   background-color: #F8F6F7;
-  display: flex;
-  flex-direction: row;
-  height: 30vh;
-  width: 10vw;
+  height: 60vh;
+  width: 20vw;
   box-shadow: 3px 3px 5px #797a79;
   margin-left: 10%;
-  margin-top: 4%;
+  margin-top: 8%;
   opacity: .3;
   color: rgb(97, 97, 97);
 
 }
-.project2:hover {
-  opacity: .8;
-}
+
+
 .project3:hover {
   opacity: .8;
 }
@@ -233,3 +232,45 @@ h2#projecttitle{
     color: white;
     border-radius: 10%;
   }
+
+
+
+  @media only screen and (max-width: 900px){
+
+
+    .content1 {
+      display: flex;
+      background: white;
+      width:100vw;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+  h1 {
+    text-align: center right ;
+    font-weight: bold;
+    color: black;
+    font-size: 15vw;
+    padding-right: 35px;
+    padding-top: 15%;
+    margin: 0%; 
+    text-shadow: 1px 1px 1px black ;
+    
+}
+
+.content2about {
+  display: flex;
+  flex-direction: column;
+  background-color: #2b2b2b;
+  /* background-image: linear-gradient(-90deg, white, rgb(156, 156, 156)); */
+  color: white;
+  justify-content: end; 
+  align-items: flex-end;
+  height: 100vh;
+  width: 40vw;
+  padding-top: 8%;
+  padding-left:3%;
+  padding-right: 3%;
+
+}
+}
