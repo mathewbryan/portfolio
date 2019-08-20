@@ -10,6 +10,11 @@ p {
   text-align: right;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 body{
     background:linear-gradient(-70deg, #353635, #797a79);
     font-family: 'Roboto', sans-serif;
@@ -97,7 +102,7 @@ p#about {
 
 .project1 {
   background-color: #F8F6F7;
-  height: 60vh;
+  height: 40vh;
   width: 20vw;
   box-shadow: 3px 3px 5px #797a79;
   margin-left: 1%;
@@ -109,6 +114,12 @@ p#about {
 
 .project1:hover {
   opacity: .8;
+}
+
+#projectImage1 {
+    width: 100%;
+    height:100%;
+
 }
 
 .project2 {
@@ -141,6 +152,22 @@ p#about {
 
 
 .project3:hover {
+  opacity: .8;
+}
+.project4 {
+  background-color: #F8F6F7;
+  height: 60vh;
+  width: 20vw;
+  box-shadow: 3px 3px 5px #797a79;
+  margin-left: 10%;
+  margin-top: 8%;
+  opacity: .3;
+  color: rgb(97, 97, 97);
+
+}
+
+
+.project4:hover {
   opacity: .8;
 }
 
